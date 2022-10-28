@@ -1,0 +1,13 @@
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\GrpcSpringbootXApplication.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\RequestText.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\RequestTextOrBuilder.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\TextConverterGrpc.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\ResponseTextOrBuilder.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\repository\RepositoryTest.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\repository\DaoInterface.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\client\TextConverterClient.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\model\Product.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\TextConverterOuterClass.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\protobuf\ResponseText.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\model\Animal.java
+C:\Users\alexd\IdeaProjects\SDJ3\AssignementTemplate\grpc-springboot-example\src\main\java\via\sdj3\grpcspringbootx\service\TextConverterImpl.java
