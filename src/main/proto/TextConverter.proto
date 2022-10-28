@@ -5,12 +5,12 @@ option java_package = "via.sdj3.grpcspringbootx.protobuf";
 
 // service definitions
 service TextConverter {
-  rpc toUpper(RequestText) returns(ResponseText);
-  rpc capitalizeFirstCharacter(RequestText) returns(ResponseText);
+  rpc getAnimalsByProductId(RequestText) returns(ResponseText);
+  rpc getProductByAnimalId(RequestText) returns(ResponseText);
 }
 
 message RequestText {
-  string input_text = 1;
+  int32 input_text = 1;
 }
 
 message ResponseText {

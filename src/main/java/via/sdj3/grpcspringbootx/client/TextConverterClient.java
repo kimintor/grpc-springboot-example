@@ -2,12 +2,14 @@ package via.sdj3.grpcspringbootx.client;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import via.sdj3.grpcspringbootx.model.Animal;
 import via.sdj3.grpcspringbootx.protobuf.RequestText;
 import via.sdj3.grpcspringbootx.protobuf.ResponseText;
 import via.sdj3.grpcspringbootx.protobuf.TextConverterGrpc;
 
 public class TextConverterClient {
     public static void main(String[] args) {
+
         ManagedChannel managedChannel = ManagedChannelBuilder
                 .forAddress("localhost", 8084)
                 .usePlaintext()
@@ -16,17 +18,18 @@ public class TextConverterClient {
                 = TextConverterGrpc.newBlockingStub(managedChannel);
 
         RequestText request = RequestText.newBuilder()
-                .setInputText("grpc rocks")
+                .setInputText(2)
                 .build();
 
         RequestText request2 = RequestText.newBuilder()
-                .setInputText("the first character to upper")
+                .setInputText(2)
                 .build();
 
-        ResponseText response = textConverterStub.toUpper(request);
+
+        ResponseText response = textConverterStub.getAnimalsByProductId(request);
         System.out.println("Received Response >>>: " + response.getOutputText());
 
-        ResponseText response2 = textConverterStub.capitalizeFirstCharacter(request2);
+        ResponseText response2 = textConverterStub.getProductByAnimalId(request2);
         System.out.println("Received Response >>>: " + response2.getOutputText());
 
         managedChannel.shutdown();
